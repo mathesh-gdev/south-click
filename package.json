@@ -1,0 +1,16 @@
+{
+  "name": "south-click",
+  "version": "1.0.0",
+  "private": true,
+  "description": "South Click Digital Marketing Agency OS - Next.js, FastAPI & Capacitor",
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix web run start",
+    "lint": "npm --prefix web run lint",
+    "cap:sync": "cd web && npx cap sync android",
+    "cap:open": "cd web && npx cap open android",
+    "api:dev": "uv run --with-requirements api/requirements.txt uvicorn api.app.main:app --reload --port 8000",
+    "api:test": "uv run --with-requirements api/requirements.txt pytest api/tests"
+  }
+}

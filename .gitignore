@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+web/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js build output
+.next/
+web/.next/
+out/
+web/out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Android build outputs & local config
+*.apk
+*.aab
+web/android/.gradle/
+web/android/build/
+web/android/app/build/
+web/android/local.properties
+web/android/captures/
+web/android/.navigation/
+
+# Python & Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+env/
+venv/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
